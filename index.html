@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css?v=1534140379">
+  <link rel="stylesheet" href="/css/compressor.min.css?v=1534140379">
+  <title>空投页面</title>
+  
+  <style>
+    .g-recaptcha{
+      position: absolute;
+      top:50%;
+      margin-top: -39px;
+      left:50%;
+      margin-left: -152px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="airdrop-home">
+    <div class="airdrop-home__desc">Complete the following steps to get CCHN for free!</div>
+
+    <div class="kyc-verification">
+      <p class="key-verification__desc">Please upload a photo of you holding a valid ID (with a photo page or photo side) and a piece of paper with the date of today. This certificate is your ID card or driver’s license. Please make sure that the part of the photo is clearly visible in the photo. Uploaded photos should be in jpg format, size between 0-10Mb.</p>
+      <div class="key-verification__upload">
+        <div class="key-verification__upload--content">
+          <img class="key-verification__upload--content--icon" src="" >
+          <span class="key-verification__upload--content--phone"></span>
+          <p class="key-verification__upload--content--desc">+Select an image</p>
+          <input type="file" class="key-verification__upload--content--file" data-bgd="">
+        </div>
+      </div>
+      <button class="key-verification__btn"><span>SUBMIT</span></button>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+  
+  <div class="confirm-tip">
+		<div class="confirm-tip__content">
+			<dl class="tip-dl">
+				<dt class="tip-dl__dt"></dt>
+				<dd class="tip-dl__dd">上传文件失败，请重试!</dd>
+			</dl>
+		</div>
+  </div>
+  
+  <div class="loading-box">
+    <div class="loading-box__content">
+      
+      <p class="loading-box__content--desc">正在发送验证</p>
+    </div>
+  </div>
+
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+    var confirm = {};//提示语
+  </script>
+  <script type="text/javascript" src="js/jquery.js?v=1534140379"></script>
+  <script src="/js/bootstrap.min.js?v=1534140379"></script>
+  <script src="/js/es5-shim.min.js?v=1534140379"></script>
+  <script src="/js/polyfills-promise.js?v=1534140379"></script>
+  <script type="text/javascript" src="/js/image-compressor.min.js?v=1534140379"></script>
+  <script type="text/javascript" src="/js/kyc.js?v=1534140379"></script>
+</body>
+</html>
